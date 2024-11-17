@@ -42,7 +42,7 @@ A real-time parking space detection and counting system built using **Python** a
 ---
 
 ## **Project Structure**
-.
+```.
 ├── main.py                 # Detects parking spaces in the video feed
 ├── ParkingSpacePicker.py   # GUI tool to select parking spaces
 ├── carPark.mp4             # Sample video for parking space detection
@@ -50,7 +50,7 @@ A real-time parking space detection and counting system built using **Python** a
 ├── CarParkPos              # Saved parking positions (generated dynamically)
 ├── requirements.txt        # Required Python packages
 └── README.md               # Project documentation
-
+```
 
 ## **Setup Instructions**
 
@@ -82,6 +82,15 @@ pip install opencv-python cvzone numpy
   ```bash
 python main.py
 ```
+
+## **Output**
+
+Here’s how the parking space detection works:
+
+![Demo Screenshot](Output.png)
+
+> This screenshot shows the real-time detection of parking spaces in the video feed.
+
 
 ## License
 
